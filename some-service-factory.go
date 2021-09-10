@@ -1,5 +1,5 @@
 package main
 
-func CreateService() SomeInterface {
-	return NewSomeService("this is a message")
+func CreateService(msg string) SomeInterface {
+	return NewSomeService(msg)
 }
