@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	s := CreateService()
+	s := CreateService("whatever")
 	s.PrintSomething()
 }
